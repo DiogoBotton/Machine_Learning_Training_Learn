@@ -19,7 +19,7 @@ Bagging (Boostrap Aggregating) é uma técnica de ensemble que melhora a estabil
 
 #### Boosting
 
-Boosting é uma técnica de ensemble que melhora o desempenho de modelos de Machine Learning ao combinar vários modelos fracos em um modelo forte. Ao contrário do bagging, onde os modelos são treinados de forma independente, **no boosting os modelos são treinados sequencialmente, e cada novo modelo é ajustado para corrigir os erros dos modelos anteriores.** Essa abordagem foca em aprender com os carros, criando um modelo mais preciso a cada iteração.
+Boosting é uma técnica de ensemble que melhora o desempenho de modelos de Machine Learning ao combinar vários modelos fracos em um modelo forte. Ao contrário do bagging, onde os modelos são treinados de forma independente, **no boosting os modelos são treinados sequencialmente, e cada novo modelo é ajustado para corrigir os erros dos modelos anteriores.** Essa abordagem foca em aprender com os erros, criando um modelo mais preciso a cada iteração.
 
 ![single_bagging_boosting](img/image.png)
 
