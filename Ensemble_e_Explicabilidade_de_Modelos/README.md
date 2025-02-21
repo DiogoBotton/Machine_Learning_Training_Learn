@@ -74,7 +74,7 @@ Na imagem abaixo, é possível observar os pesos de algumas variáveis, de um co
 
 #### LIME
 
-O método LIME (Local Interpretable Model-agnostic Explanations), **ao contrário de métodos que tentma interpretar o modelo como um todo, o LIME foca na explicação de previsões locais, ou seja, ele explica a decisão do modelo para uma única instância ou caso específico**. Essa abordagem é especialmente útil em modelos complexos e de "caixa-preta" (onde não é possível saber como funcionam por dentro), como redes neurais e ensembles, onde é difícil compreender diretamente como cada variável influencia a saída.
+O método LIME (Local Interpretable Model-agnostic Explanations), **ao contrário de métodos que tentam interpretar o modelo como um todo, o LIME foca na explicação de previsões locais, ou seja, ele explica a decisão do modelo para uma única instância ou caso específico**. Essa abordagem é especialmente útil em modelos complexos e de "caixa-preta" (onde não é possível saber como funcionam por dentro), como redes neurais e ensembles, onde é difícil compreender diretamente como cada variável influencia a saída.
 
 Na imagem abaixo, em uma instância particular, o modelo preditivo a classificou como bom com 96% de certeza. A parte central mostra as forças de interação de cada variável e seus *thresholds* (pontos de corte). O quadro à direita indica como as features contribuíram para a classificação (laranja para ser um vinho "bom" e azul para ser um vinho "ruim"). O método aponta que um vinho é considerado bom quando o teor alcóolico (alcohol) está acima de 11.40 (no caso da instância é 13), e o nível de cloreto (chlorides) deve ser menor ou igual a 0.04.
 
