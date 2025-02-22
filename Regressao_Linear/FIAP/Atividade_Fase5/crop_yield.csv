@@ -1,4 +1,4 @@
-Crop,Precipitation (mm day-1),Specific Humidity at 2 Meters (g/kg),Relative Humidity at 2 Meters (%),Temperature at 2 Meters (C),Yield
+Crop,Precipitation,SpecificHumidity_g_kg,RelativeHumidity_%,Temperature_C,Yield
 "Cocoa, beans",2248.92,17.72,83.4,26.01,11560
 "Cocoa, beans",1938.42,17.54,82.11,26.11,11253
 "Cocoa, beans",2301.54,17.81,82.79,26.24,9456
